@@ -1,0 +1,161 @@
+body
+	{
+		margin: 0;
+		border: 2px solid #eb5a47;
+		background:url(car.jpg);
+		background-size:1380px 750px;
+		background-repeat:repeat;
+		overflow: auto;
+	}
+	/* CSS Document */
+
+.loginbox
+	{
+	width:320px;
+	height:420px;
+	}
+.welcome
+	{
+		background-color:pink ;
+		color: black;
+		font-weight: 999;
+		margin-left: 0px !important;
+	}
+.container
+	{
+		overflow: auto;
+		height: auto;
+		padding:30px ;
+		margin-top: 100px;
+		border: 2px solid red;
+		border-radius: 15px;
+		background: white;
+	}	
+.flude-container
+	{
+		border: 2px solid red;
+		padding:15px 60px 15px 0px;;
+		border-radius: 15px;
+		background: white;
+	}
+.Profile
+	{
+		font-size: 20px;
+		width: 70%;
+		margin:auto ;
+	}
+.center{text-align: center;}
+th.index {width:80%; }
+td.index
+	{
+		padding: 5px;
+		text-align: left;
+	}
+
+button {float: right; }
+.contact{font-size: 18px; }
+tr:hover {background-color: lightyellow; }
+.mark{margin-left: 15px; }
+a{text-decoration: none; }
+ 
+ 	
+ #index {
+ 	font-size: bold;
+  background-color: #f2a9c1;    
+}
+
+body {margin: 0;}
+
+ul.topnav {
+/* border: 2px solid red;*/
+  list-style-type: none;
+  margin: auto auto auto 90px;
+  width: 90%;
+  padding: 0;
+  overflow: hidden;
+  background-color: white;
+}
+ul.topnav li {float: left;}
+ul.topnav li a {
+	margin-left: 25px;
+	font-size: bold;
+  display: block;
+ 	font-size: large;
+	font-weight: 501;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+#logout{background-color: red; margin-left: 0px;}
+ul.topnav li a:hover {background-color: #f2dede; color: blue;}
+ul.topnav li a.active {background-color: #04AA6D;}
+ul.topnav li.right {float: right;}
+@media screen and (max-width: 600px) {
+	ul.topnav { margin: auto auto auto 50px;}
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+#pswd_info {
+	background: #dfdfdf none repeat scroll 0 0;
+	color: #fff;
+	display: block;
+	margin-left: 15px;
+}
+#pswd_info h4{
+    background: black none repeat scroll 0 0;
+    display: block;
+    font-size: 16px;
+    letter-spacing: 3;
+    padding: 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+#pswd_info ul {
+    list-style: outside none none;
+}
+#pswd_info ul li {
+   padding: 5px 45px;
+}
+.valid {
+	color: green;
+	line-height: 21px;
+	padding-left: 22px;
+}
+
+.invalid {
+	color: red;
+	line-height: 21px;
+	padding-left: 22px;
+}
+#pswd_info {
+    display:none;
+}
+.error
+{
+	margin-left: 8px;
+    color: red;
+}
+input.error
+    {
+        border: 2px solid red;
+    }
+    input.valid
+    {
+        border: 2px solid green;
+    }
+
+
+
+
+
+/*@media only screen and (max-width: 600px)
+{
+	#welcome {
+ 	position: none;
+ 	right: 0px;
+ 	font-size: bold;
+  color: black;
+  background-color: #ff3577;    
+	}
+}*/
