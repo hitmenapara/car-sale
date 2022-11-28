@@ -81,7 +81,7 @@ include("dbcon.php");
 
 if(isset($_POST["upload"]))
 {
-$str="./image/img".time().".jpg";
+$str="/image/img".time().".jpg";
 $x=move_uploaded_file($_FILES["myfile"]["tmp_name"],$str);
 echo($x==true)?"image uploaded":"image not uploaded";
 $sql = "INSERT INTO tblphoto(id,photo,model,price,ptext,category)VALUES(NULL, '".$str."', '".$_POST["model"]."','".$_POST["price"]."','".$_POST["ptext"]."','".$_POST["category"]."');";
